@@ -2,17 +2,17 @@
 
 .randomchar {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(auto-fill, 100%);
     align-items: center;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
     &__block {
         padding: 40px 35px;
         display: grid;
-        grid-template-columns: 180px auto;
+        grid-template-columns: 110px auto;
         column-gap: 30px;
     }
     &__img {
-        width: 180px;
+        width: 120px;
         height: 180px;
         object-fit: cover;
     }
@@ -57,7 +57,7 @@
     }
     &__decoration {
         position: absolute;
-        bottom: 14px;
-        right: -37px;
+        bottom: 9px;
+        right: 7px;
     }
 }
