@@ -64,7 +64,7 @@ const ComicsList = () => {
     return (
         <div className="comics__list">
             {errorMessage}
-            {spinner}
+            {spinner}    
             {items}
             <button 
                 disabled={newItemLoading} 

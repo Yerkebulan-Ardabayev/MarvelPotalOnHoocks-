@@ -1,6 +1,5 @@
 import './appBanner.scss';
 import avengers from '../../resources/img/Avengers.png';
-import avengersLogo from '../../resources/img/Avengers_logo.png';
 
 const AppBanner = () => {
     return (
@@ -10,7 +9,6 @@ const AppBanner = () => {
                 New comics every week!<br/>
                 Stay tuned!
             </div>
-            <img src={avengersLogo} alt="Avengers logo"/>
         </div>
     )
 }
